@@ -6,13 +6,13 @@ export default function WithParameter(props) {
 
     return (
         <div>
-            <h2>{ props.title }</h2>
+            <h2>{props.title}</h2>
             <p>
-                <strong>{ props.student } </strong> 
-                tem nota 
-                <strong> { noteInt } </strong>
-                e foi 
-                <strong> { status }</strong>
+                <strong>{props.student} </strong>
+                tem nota
+                <strong> {noteInt} </strong>
+                e foi
+                <strong> {status}</strong>
             </p>
         </div>
     )
