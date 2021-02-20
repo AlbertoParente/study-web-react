@@ -8,25 +8,25 @@ import Card from './components/layout/Card'
 
 export default () => {
     <div className="App">
-        <h1>Fundamentos React</h1>
+        <h1>React Fundamentals</h1>
         <div className="Cards">
-            <Card title='#04 - Random Challenge'>
+            <Card title="#04 - Random Challenge" color="#080">
                 <Random min={1} max={60} />
             </Card>
 
-            <Card title='#03 - Fragment'>
+            <Card title="#03 - Fragment">
                 <Fragment />
             </Card>
 
-            <Card title='#02 - With Parameter'>
+            <Card title="#02 - With Parameter">
                 <WithParameter
-                    title="Situação do Aluno"
+                    title="Student Situation"
                     student="Alberto Parente"
                     note={9.9} />
             </Card>
 
-            <Card title='#01 - With Parameter'>
-                <First></First>
+            <Card title="#01 - First Component">
+                <First />
             </Card>
         </div>
     </div>
