@@ -7,9 +7,9 @@ export default props => {
     return (
         <div>
             <h2>Valor Aleatório</h2>
-            <p><strong>Valor Mínimo: </strong> {min}</p>
-            <p><strong>Valor Maximo: </strong> {max}</p>
-            <p><strong>Valor Escolhido: </strong> {random}</p>
+            <p><strong>Minimum value: </strong> {min}</p>
+            <p><strong>Maximum value: </strong> {max}</p>
+            <p><strong>Value chosen: </strong> {random}</p>
         </div>
     )
 }
