@@ -1,5 +1,7 @@
 import React from 'react'
 import './App.css'
+import Family from './components/basic/Family'
+import FamilyMember from './components/basic/FamilyMember'
 import Card from './components/layout/Card'
 import Random from './components/basic/Random'
 import Fragment from './components/basic/Fragment'
@@ -10,6 +12,14 @@ export default () => (
     <div className="App">
         <h1>React Fundamentals</h1>
         <div className="Cards">
+            <Card title="#05 - Component with children" color="#00C8F8">
+                <Family surname="Parente">
+                    <FamilyMember name="Alberto" />
+                    <FamilyMember name="Juliana" />
+                    <FamilyMember name="Julia" />
+                </Family>
+            </Card>
+
             <Card title="#04 - Random Challenge" color="#FA6900">
                 <Random min={1} max={60} />
             </Card>

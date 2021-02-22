@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function WithParameter(props) {
     const status = props.note >= 7 ? 'Aprovado' : 'Reprovado'
-    const noteInt = Math.cell(props.note)
+    const noteInt = Math.ceil(props.note)
 
     return (
         <div>
