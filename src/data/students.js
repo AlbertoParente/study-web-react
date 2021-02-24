@@ -7,5 +7,12 @@ export default [
     { id: 6, name: 'Fabio', note: 7.0 },
     { id: 7, name: 'Edina', note: 5.4 },
     { id: 8, name: 'Eduarda', note: 5.7 },
-    { id: 9, name: 'Gabriella', note: 8.5 },
+    { id: 9, name: 'Gabriella', note: 8.4 },
+    { id: 10, name: 'Carol', note: 7.1 },
+    { id: 11, name: 'Artur', note: 8.5 },
+    { id: 12, name: 'Graziella', note: 9.5 },
+    { id: 13, name: 'Eliana', note: 4.5 },
+    { id: 14, name: 'Eliana', note: 3.5 },
+    { id: 15, name: 'Luana', note: 2.5 },
+    { id: 16, name: 'Alice', note: 8.5 },
 ]
