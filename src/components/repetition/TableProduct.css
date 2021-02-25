@@ -1,0 +1,16 @@
+.tableProduct table {
+    width: 100%;
+}
+
+.tableProduct th {
+    background-color: #283cae;
+    color: #fff;
+}
+
+.tableProduct .tdEven {
+    background-color: #ddd;
+}
+
+.tableProduct .tdOdd {
+    background-color: #fff;
+}

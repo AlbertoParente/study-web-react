@@ -1,12 +1,14 @@
-const produtos = [
-    { id: 1, name: 'Desodorante', preco: 9.99 }
-    { id: 2, name: 'Refrigerante', preco: 4.99 }
-    { id: 3, name: 'Creme de Pentear', preco: 3.99 }
-    { id: 4, name: 'Perfume', preco: 50.99 }
-    { id: 5, name: 'Escova', preco: 6.99 }
-    { id: 6, name: 'Pente', preco: 1.99 }
-    { id: 7, name: 'Sandalia', preco: 20.99 }
-    { id: 8, name: 'Camisa', preco: 30.99 }
-    { id: 9, name: 'Meia', preco: 9.99 }
-    { id: 10, name: 'Cueca', preco: 12.99 }
+const products = [
+    { id: 1, name: 'Desodorante', price: 9.99 },
+    { id: 2, name: 'Refrigerante', price: 4.99 },
+    { id: 3, name: 'Creme de Pentear', price: 3.99 },
+    { id: 4, name: 'Perfume', price: 50.99 },
+    { id: 5, name: 'Escova', price: 6.99 },
+    { id: 6, name: 'Pente', price: 1.99 },
+    { id: 7, name: 'Sandalia', price: 20.99 },
+    { id: 8, name: 'Camisa', price: 30.99 },
+    { id: 9, name: 'Meia', price: 9.99 },
+    { id: 10, name: 'Cueca', price: 12.99 },
 ]
+
+export default products
