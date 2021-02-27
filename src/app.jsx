@@ -1,5 +1,6 @@
 import React from 'react'
 import './App.css'
+import UserInfo from './components/conditional/UserInfo'
 import EvenOrOdd from './components/conditional/EvenOrOdd'
 import TableProduct from './components/repetition/TableProduct'
 import ListStudents from './components/repetition/ListStudents'
@@ -17,6 +18,9 @@ export default () => (
         <div className="Cards">
             <Card title="#07 - Conditional Rendering" color="#982395">
                 <EvenOrOdd> number={33}</EvenOrOdd>
+                <UserInfo user={{ name: 'Alberto Parente' }} />
+                <UserInfo user={{}} />
+                <UserInfo />
             </Card>
 
             <Card title="#08 - Repetition Challenge" color="#3A9AD9">
