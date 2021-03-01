@@ -8,10 +8,10 @@ export default props => {
         <div>
             <If test={user && user.name}>
                 Welcome <strong>{ props.user.name }</strong>...!
-            </If>
 
-            <If test={!user && !user.name}>
-                Welcome <strong>User</strong>...!
+                <Else test={!user && !user.name}>
+                    Welcome <strong>User</strong>...!
+                </Else>
             </If>
         </div>
     )
