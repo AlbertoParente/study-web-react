@@ -1,5 +1,6 @@
 import React from 'react'
 import './App.css'
+import DirectFather from './components/communication/DirectFather'
 import UserInfo from './components/conditional/UserInfo'
 import EvenOrOdd from './components/conditional/EvenOrOdd'
 import TableProduct from './components/repetition/TableProduct'
@@ -16,6 +17,10 @@ export default () => (
     <div className="App">
         <h1>React Fundamentals</h1>
         <div className="Cards">
+            <Card title="#09 - Direct Communication" color="#59323C">
+                <DirectFather></DirectFather>
+            </Card>
+
             <Card title="#08 - Conditional Rendering" color="#982395">
                 <EvenOrOdd number={33}></EvenOrOdd>
                 <UserInfo user={{ name: 'Alberto Parente' }} />
@@ -28,7 +33,7 @@ export default () => (
 
             <Card title="#06 - Repetition" color="#FF4C65">
                 <ListStudents>
-                    
+
                 </ListStudents>
             </Card>
 
