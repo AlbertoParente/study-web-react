@@ -16,14 +16,13 @@ export default () => (
     <div className="App">
         <h1>React Fundamentals</h1>
         <div className="Cards">
-            <Card title="#07 - Conditional Rendering" color="#982395">
-                <EvenOrOdd> number={33}</EvenOrOdd>
+            <Card title="#08 - Conditional Rendering" color="#982395">
+                <EvenOrOdd number={33}></EvenOrOdd>
                 <UserInfo user={{ name: 'Alberto Parente' }} />
-                <UserInfo user={{}} />
                 <UserInfo />
             </Card>
 
-            <Card title="#08 - Repetition Challenge" color="#3A9AD9">
+            <Card title="#07 - Repetition Challenge" color="#3A9AD9">
                 <TableProduct></TableProduct>
             </Card>
 

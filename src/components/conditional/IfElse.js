@@ -8,7 +8,7 @@ export default props => {
     })
 
     if(props.test) {
-        return elseChild
+        return ifChildren
     } else if(elseChild) {
         return elseChild
     } else {
