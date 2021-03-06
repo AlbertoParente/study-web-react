@@ -1,5 +1,7 @@
 import React from 'react'
 import './App.css'
+
+import Input from './components/formulary/Input'
 import IndirectFather from './components/communication/IndirectFather'
 import DirectFather from './components/communication/DirectFather'
 import UserInfo from './components/conditional/UserInfo'
@@ -18,6 +20,10 @@ export default () => (
     <div className="App">
         <h1>React Fundamentals</h1>
         <div className="Cards">
+            <Card title="#11 - Controlled Component (Input)" color="#E45F56">
+                <Input></Input>
+            </Card>
+
             <Card title="#10 - Indirect Communication" color="#8BAD39">
                 <IndirectFather></IndirectFather>
             </Card>
