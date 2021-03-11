@@ -7,13 +7,13 @@ export default props => {
         return child !== elseChild
     })
 
-    if(props.test) {
+    if (props.test) {
         return ifChildren
-    } else if(elseChild) {
+    } else if (elseChild) {
         return elseChild
     } else {
         return false
     }
 }
 
-export const Else = props =>props.children
+export const Else = props => props.children

@@ -1,12 +1,11 @@
 import React from 'react'
 
-
 export default props => {
-    const event = props.whenClick 
+    const event = props.whenClick
     const randomAge = () => parseInt(Math.random() * (20)) + 10
     const randomAdulthood = () => randomAge() > 18
-    
-    return(
+
+    return (
         <div>
             <div>
                 Child

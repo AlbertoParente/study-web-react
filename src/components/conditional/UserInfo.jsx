@@ -4,10 +4,10 @@ import If, { Else } from './IfElse'
 export default props => {
     const user = props.user || {}
 
-    return(
+    return (
         <div>
             <If test={user && user.name}>
-                Welcome <strong>{ user.name }</strong>...!
+                Welcome <strong>{user.name}</strong>...!
 
                 <Else>
                     Welcome <strong>User</strong>...!

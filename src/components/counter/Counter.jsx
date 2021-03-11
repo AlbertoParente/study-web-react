@@ -45,12 +45,12 @@ class Counter extends Component {
     }
 
     render() {
-        return(
+        return (
             <div className="Counter">
                 <h2>Counter</h2>
                 <Display number={this.state.number} />
                 <StepForm step={this.state.step} setStep={this.setStep} />
-                <Buttons setIncrement={this.inc} setDecrement={this.dec}/>
+                <Buttons setIncrement={this.inc} setDecrement={this.dec} />
                 {/* 
                     or 
                 <button onClick={_ => this.inc()}>++</button>
@@ -58,6 +58,6 @@ class Counter extends Component {
             </div>
         )
     }
-} 
+}
 
 export default Counter

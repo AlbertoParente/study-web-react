@@ -3,12 +3,12 @@ import "./input.css"
 
 export default props => {
     const [value, setValue] = useState('Value: ')
-    
+
     function whenToChange(e) {
         setValue(e.target.value)
     }
 
-    return(
+    return (
         <div className="Input">
             <h2>{value}</h2>
             <div style={{

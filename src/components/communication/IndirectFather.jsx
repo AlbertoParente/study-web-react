@@ -5,14 +5,14 @@ export default props => {
     const [name, setName] = useState('Juliana Cavalcante')
     const [age, setAge] = useState(0)
     const [adulthood, setAdulthood] = useState(false)
-    
+
     function setInformation(name, age, adulthood) {
         setName(name)
         setAge(age)
         setAdulthood(adulthood)
     }
-    
-    return(
+
+    return (
         <div>
             <div>
                 <span>{name} </span>

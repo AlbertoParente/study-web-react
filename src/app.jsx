@@ -1,5 +1,7 @@
 import React from 'react'
 import './App.css'
+
+import Mega from './components/mega/mega'
 import Counter from './components/counter/Counter'
 import Input from './components/formulary/Input'
 import IndirectFather from './components/communication/IndirectFather'
@@ -20,36 +22,38 @@ export default () => (
     <div className="App">
         <h1>React Fundamentals</h1>
         <div className="Cards">
+            <Card title="#13 - Mega" color="#B9006E">
+                <Mega qtd={6} />
+            </Card>
+
             <Card title="#12 - Counter" color="#424242">
-                <Counter initialNumber={33}></Counter>
+                <Counter initialNumber={33} />
             </Card>
 
             <Card title="#11 - Controlled Component (Input)" color="#E45F56">
-                <Input></Input>
+                <Input />
             </Card>
 
             <Card title="#10 - Indirect Communication" color="#8BAD39">
-                <IndirectFather></IndirectFather>
+                <IndirectFather />
             </Card>
-            
+
             <Card title="#09 - Direct Communication" color="#59323C">
-                <DirectFather></DirectFather>
+                <DirectFather />
             </Card>
 
             <Card title="#08 - Conditional Rendering" color="#982395">
-                <EvenOrOdd number={33}></EvenOrOdd>
+                <EvenOrOdd number={33} />
                 <UserInfo user={{ name: 'Alberto Parente' }} />
                 <UserInfo />
             </Card>
 
             <Card title="#07 - Repetition Challenge" color="#3A9AD9">
-                <TableProduct></TableProduct>
+                <TableProduct />
             </Card>
 
             <Card title="#06 - Repetition" color="#FF4C65">
-                <ListStudents>
-
-                </ListStudents>
+                <ListStudents />
             </Card>
 
             <Card title="#05 - Component with children" color="#00C8F8">

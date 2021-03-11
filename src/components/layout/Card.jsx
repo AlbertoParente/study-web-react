@@ -6,8 +6,8 @@ export default props => {
         backgroundColor: props.color || '#F00',
         borderColor: props.color || '#F00',
     }
-   
-    return(
+
+    return (
         <div className="Card" style={cardStyle}>
             <div className="Title">{props.title}</div>
             <div className="Content">
